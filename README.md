@@ -22,7 +22,7 @@ smtplib
 You can install these libraries using pip:
 pip install requests beautifulsoup4 apscheduler
 
-The script uses a proxy to send requests.
+The script uses DataImpulse's proxy to send requests, so that Blueground doesn't flag our bot for "Unusual Activity"
 
 Do not forget to update the email configuration in the send_email function.
 
