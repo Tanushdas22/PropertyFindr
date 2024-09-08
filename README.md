@@ -10,6 +10,7 @@ Scheduled Execution: Uses APScheduler to run the script daily.
 
 ## Note
 Before running the script, ensure you have the following Python libraries installed:
+
 requests
 
 beautifulsoup4
@@ -21,19 +22,9 @@ smtplib
 You can install these libraries using pip:
 pip install requests beautifulsoup4 apscheduler
 
-## Proxy Configuration
-The script uses a proxy to send requests. Configure the following proxy details in the scrape_apartments function:
+The script uses a proxy to send requests.
 
-proxy_host: Proxy host.
-proxy_port: Proxy port.
-proxy_login: Proxy login (if required).
-proxy_password: Proxy password (if required).
-
-## Email Configuration
-Update the email configuration in the send_email function:
-
-sender_email: Your email address.
-sender_password: Your email account password. Note: For security reasons, consider using an application-specific password or environment variables to manage sensitive information.
+Do not forget to update the email configuration in the send_email function.
 
 ## Code Explanation
 1. scrape_apartments(max_price):
