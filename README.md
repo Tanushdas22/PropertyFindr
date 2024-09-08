@@ -8,12 +8,14 @@ Email Notification: Sends filtered apartment listings to a specified email addre
 
 Scheduled Execution: Uses APScheduler to run the script daily.
 
-
-
+## Note
 Before running the script, ensure you have the following Python libraries installed:
 requests
+
 beautifulsoup4
+
 apscheduler
+
 smtplib
 
 You can install these libraries using pip:
