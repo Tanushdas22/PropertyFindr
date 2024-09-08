@@ -1,4 +1,4 @@
-# Apartment Findr
+# PropertyFindr
 This repository contains a Python script that scrapes apartment listings from Blueground and sends email notifications with filtered results based on user-defined criteria. The script uses web scraping to find apartments below a specified price and sends an email with the filtered listings.
 
 ## Features
