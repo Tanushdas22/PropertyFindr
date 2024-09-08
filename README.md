@@ -3,7 +3,9 @@ This repository contains a Python script that scrapes apartment listings from Bl
 
 ## Features
 Web Scraping: Extracts apartment listings from Blueground using BeautifulSoup.
+
 Email Notification: Sends filtered apartment listings to a specified email address.
+
 Scheduled Execution: Uses APScheduler to run the script daily.
 
 
